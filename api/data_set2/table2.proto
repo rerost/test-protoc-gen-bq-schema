@@ -1,0 +1,12 @@
+syntax = "proto3";
+package data_set2;
+
+import "bq_table.proto";
+import "bq_field.proto";
+
+message Table2 {
+  option (gen_bq_schema.bigquery_opts).table_name = "table2";
+
+  string test = 1;
+}
+

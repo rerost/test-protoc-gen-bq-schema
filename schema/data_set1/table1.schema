@@ -1,0 +1,23 @@
+[
+ {
+  "name": "a",
+  "type": "INTEGER",
+  "mode": "NULLABLE",
+  "description": "this is test"
+ },
+ {
+  "name": "b",
+  "type": "STRING",
+  "mode": "REQUIRED"
+ },
+ {
+  "name": "not_c",
+  "type": "BOOLEAN",
+  "mode": "NULLABLE"
+ },
+ {
+  "name": "d",
+  "type": "integer",
+  "mode": "NULLABLE"
+ }
+]
